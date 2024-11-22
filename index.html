@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>khanoomi tailwind</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
+  </head>
+  <body class="bg-[#F5F5F5]">
+    <!--nav-->
+    <header class="sticky top-0 z-[999] shadow-bottom shadow bg-white">
+      <nav
+        class="container flex justify-between items-center p-2"
+      >
+        <a href="#" class="w-1/12 flex items-center"
+          ><img src="./media/Khanoumi-logo.svg" alt=""
+        /></a>
+        <ul
+          class="md:w-5/12 w-8/12 md:text-xs lg:text-base ps-1 md:ps-0 flex text-[7px] sm:text-[10px] flex-row gap-4 sm:gap-8 items-center font-bold justify-start"
+        >
+          <li><a href="#">محصولات</a></li>
+          <li><a href="#">برندها</a></li>
+          <li><a href="#">پیشنهاد ویژه</a></li>
+          <li><a href="#">مجله خانومی</a></li>
+        </ul>
+        <form
+          action=""
+          class="md:w-4/12 w-3/12 md:h-9 md:text-xs lg:text-base text-[7px] sm:text-[10px] flex flex-row sm:gap-1 items-center bg-zinc-200 rounded-md"
+        >
+          <div class="w-1/4 md:w-1/12 h-full flex items-center justify-center">
+            <img
+              class="ps-1 w-[60%] md:w-[100%]"
+              src="./media/svgexport-3.svg"
+              alt=""
+            />
+          </div>
+          <input
+            type="search"
+            name="search"
+            id="search"
+            placeholder="جستجو"
+            class="w-[60%] sm:w-[70%] bg-zinc-200 font-bold"
+          />
+        </form>
+        <div class="w-1/12 flex flex-row items-center justify-center">
+          <a href="#" class="w-[80%] md:w-[50%]"
+            ><img src="./media/user-svgrepo-com.svg" alt=""
+          /></a>
+          <a href="#" class="w-[40%] md:w-[20%] h-[50%] flex items-center"
+            ><img src="./media/icons8-cart-48.svg" alt=""
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <!--end nav-->
+    <!--auto slider-->
+    <section>
+        <div class="swiper mySwiper1 w-full h-full mt-2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide1.jpg" alt="" class="d-block w-full h-full"/></div>
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide2.jpg" alt="" class="d-block w-full h-full"/></div>
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide3.jpg" alt=""class="d-block w-full h-full" /></div>
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide4.jpg" alt="" class="d-block w-full h-full"/></div>
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide5.jpg" alt="" class="d-block w-full h-full"/></div>
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide6.jpg" alt="" class="d-block w-full h-full"/></div>
+              <div class="swiper-slide flex items-center justify-center"><img src="./media/slide7.jpg" alt="" class="d-block w-full h-full"/></div>
+            </div>
+            <div class="swiper-button-next1 flex items-center justify-center absolute top-[50%] left-[96%] z-[998] cursor-pointer">
+              <img src="./media/arrow-right-3098.svg" alt="" class="w-[50%]"></div>
+            <div class="swiper-button-prev1 flex items-center justify-center absolute top-[50%] right-[96%] z-[998] cursor-pointer">
+              <img src="./media/arrow-left-3099.svg" alt="" class="w-[50%]">
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </section>
+    <!--end auto slider-->
+    <!--freemode slider-->
+    <section  class="mt-3 md:mt-10 md:px-12 flex sm:hidden">
+        <div class="container my-5 flex flex-col bg-[#FFE2E7] rounded sm:rounded-2xl h-[300px] justify-around">
+            <a href="#" class="flex items-center justify-start pt-2 pr-5">
+              <img
+                src="./media/svgexport-27.svg"
+                alt="" class="d-block w-[25%]"
+              />
+            </a>
+            <div class="flex flex-row gap-3 items-center px-4 h-[200px]">
+                <div class="swiper mySwiper2 h-[200px]">
+                    <div class="swiper-wrapper  flex gap-3">
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj.gif" alt="haraj" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj1.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj2.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj3.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj4.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj5.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj6.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj7.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/haraj8.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                      <div class="swiper-slide box flex items-center justify-center">
+                        <a href="#">
+                          <img src="./media/hame.jpg" alt="" class="w-full rounded-md sm:rounded-lg"/>
+                        </a>
+                      </div>
+                  </div>
+                  <div class="swiper-button-next2 flex items-center justify-center absolute top-[40%] right-[90%] z-[998] cursor-pointer">
+                    <img src="./media/svgexport-28.svg" alt="" class="w-[30px]"/>
+                  </div>
+                  <div class="swiper-button-prev2 flex items-center justify-center absolute top-[40%] left-[90%] z-[998] cursor-pointer">
+                    <img src="./media/svgexport-29.svg" alt="" class="w-[30px]"/>
+                  </div>
+            </div>
+          </div>
+    </section>
+    <!---->
+    <section class="hidden sm:flex">
+      <div class="container my-5 flex flex-col bg-[#FFE2E7] rounded sm:rounded-2xl">
+        <a href="#" class="flex items-center justify-start py-2 pr-5">
+          <img
+            src="./media/svgexport-27.svg"
+            alt="" class="d-block"
+          />
+        </a>
+        <div class="flex flex-row gap-3 items-center px-4">
+            <a href="#" class="flex items-center justify-center w-[15%]">
+                <img src="./media/haraj.gif" alt="haraj" class="w-full h-full"/>
+            </a>
+            <div class="swiper mySwiper3 w-full h-full">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj1.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj2.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj3.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj4.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj5.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj6.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj7.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/haraj8.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+                  <div class="swiper-slide box2 flex items-center justify-center pb-5">
+                    <a href="#">
+                      <img src="./media/hame.jpg" alt="" class="d-block w-full h-full sm:rounded-lg"/>
+                    </a>
+                  </div>
+              </div>
+              <div class="swiper-button-next3 flex items-center justify-center absolute top-[40%] right-[95%] z-[998] cursor-pointer">
+                <img src="./media/svgexport-28.svg" alt="" class="md:w-[30px] w-[15px]"/>
+              </div>
+              <div class="swiper-button-prev3 flex items-center justify-center absolute top-[40%] left-[95%] z-[998] cursor-pointer">
+                <img src="./media/svgexport-29.svg" alt="" class="md:w-[30px] w-[15px]"/>
+              </div>
+        </div>
+      </div>
+    </section>
+    <!--end freemode slider-->
+    <!--banner-->
+    <section class="mt-3 md:px-12">
+      <div class="container">
+        <a href="#"><img src="./media/banner.jpg" alt="" class="w-full h-full"></a>
+      </div>
+    </section>
+    <!--end banner-->
+    <!--pishnahad-->
+    <section class="mt-5 md:mt-10">
+      <div class="container flex flex-col gap-5">
+        <div class="flex justify-center"><span class="w-[30%]"></span><p class="text-xs sm:text-base md:text-xl">پیشنهادهای ویژه</p><span class="w-[30%]"></span></div>
+        <div class="flex flex-col lg:flex-row justify-around gap-y-5">
+          <a href="#" class="flex justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/pishnahad1.jpg" alt="" class="rounded-md w-full md:w-11/12"></a>
+          <a href="#" class="flex justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/pishnahad2.jpg" alt="" class="rounded-md w-full md:w-11/12"></a>
+          <a href="#" class="flex justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/pishnahad3.jpg" alt="" class="rounded-md w-full md:w-11/12"></a>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-around gap-y-5">
+          <a href="#" class="flex justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/pishnahad4.jpg" alt="" class="rounded-md w-full md:w-11/12"></a>
+          <a href="#" class="flex justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/pishnahad5.jpg" alt="" class="rounded-md w-full md:w-11/12"></a>
+          <a href="#" class="flex justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/pishnahad6.jpg" alt="" class="rounded-md w-full md:w-11/12"></a>
+        </div>
+      </div>
+    </section>
+    <!--end pishnahad-->
+    <!--sharayet-->
+    <section class="hidden md:flex">
+      <div class="container bg-white  md:px-9 mt-2 flex md:flex-col lg:flex-row items-center md:gap-2 lg:gap-5">
+        <div class="flex flex-row items-center md:w-full lg:w-11/12">
+          <img src="./media/نماد اعتماد خانومی.svg" alt="" class="lg:w-2/12 md:w-[40px]">
+          <div class="w-11/12 lg:text-xs md:text-[10px]">
+          <p class="font-bold border-b-gray-400 border-b-[1px]">نماد اعتماد</p>
+          <a href="#" class="hover:text-blue-600 transition-all duration-200 ease-linear">پرداخت امن</a>
+          </div>
+        </div>
+        <div class="flex flex-row items-center md:w-full lg:w-11/12">
+          <img src="./media/نحوه پرداخت در سایت خانومی.svg" alt="" class="lg:w-2/12 md:w-[40px]">
+          <div class="w-11/12 lg:text-xs md:text-[10px]">
+          <p class="font-bold border-b-gray-400 border-b-[1px]">نحوه پرداخت</p>
+          <a href="#" class="hover:text-blue-600 transition-all duration-200 ease-linear">تمامی کارتهای عضو شتاب</a>
+          </div>
+        </div>
+        <div class="flex flex-row items-center md:w-full lg:w-11/12">
+          <img src="./media/ارسال رایگان محصولات خانومی.svg" alt="" class="lg:w-2/12 md:w-[40px]">
+          <div class="w-11/12 lg:text-xs md:text-[10px]">
+          <p class="font-bold border-b-gray-400 border-b-[1px]">ارسال رایگان</p>
+          <a href="#" class="hover:text-blue-600 transition-all duration-200 ease-linear">جزئیات هزینه ارسال</a>
+          </div>
+        </div>
+        <div class="flex flex-row items-center md:w-full lg:w-11/12">
+          <img src="./media/۷ روز بازگشت رایگان محصولات خانومی.svg" alt="" class="lg:w-2/12 md:w-[40px]">
+          <div class="w-11/12 lg:text-xs md:text-[10px]">
+          <p class="font-bold border-b-gray-400 border-b-[1px]">7 روز بازگشت رایگان</p>
+          <a href="#" class="hover:text-blue-600 transition-all duration-200 ease-linear">شرایط خدمات پس از فروش</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end sharayet-->
+    <!--dastresy-->
+    <section class="mt-5 md:mt-10">
+      <div class="container flex flex-col gap-5">
+        <div class="flex justify-center"><span class="w-[30%]"></span><p class="text-xs sm:text-base md:text-xl">دسترسی ویژه</p><span class="w-[30%]"></span></div>
+        <div class="flex flex-col lg:flex-row justify-around lg:gap-x-4 gap-y-5">
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">عطر</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/dastresy1.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">آرایشی</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/dastresy2.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-around lg:gap-x-4 gap-y-5">
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">مصرفی</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/dastresy3.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">شامپو</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/dastresy4.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-around lg:gap-x-4 gap-y-5">
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">تونر</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/dastresy5.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">ماسک صورت</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/dastresy6.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end dastresy-->
+    <!--bakhsh-->
+    <section class="mt-5 md:mt-10">
+      <div class="container flex flex-col gap-5">
+        <div class="flex justify-center"><span class="w-[30%]"></span><p class="text-xs sm:text-base md:text-xl">بخش ویژه</p><span class="w-[30%]"></span></div>
+        <div class="flex flex-col lg:flex-row justify-around lg:gap-x-4 gap-y-5">
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">لایسل</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/bakhsh1.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">سان سیف</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/bakhsh2.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-around lg:gap-x-4 gap-y-5">
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">لافارر</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/bakhsh3.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">فولیکا</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/bakhsh4.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row justify-around lg:gap-x-4 gap-y-5">
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">هیدرودرم</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/bakhsh5.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+          <div class="flex flex-col">
+            <p class="text-base md:text-xl py-2 rounded-b text-center bg-white w-full">ساین اسکین</p>
+            <a href="#" class="flex justify-center  hover:grayscale-[80%] transition-all duration-200 ease-linear"><img src="./media/bakhsh6.jpg" alt="" class="rounded-md w-full"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end bakhsh-->
+    <!--entekhab-->
+    <section class="mt-5 md:mt-10">
+      <div class="container flex flex-col gap-5">
+        <div class="flex justify-center"><span class="w-[30%]"></span><p class="text-xs sm:text-base md:text-xl">انتخاب خانومی</p><span class="w-[30%]"></span></div>
+        <div class="flex flex-col lg:flex-row justify-evenly gap-y-5">
+          <div class="flex flex-row justify-around  md:justify-center xl:gap-x-10">
+            <div class="flex flex-col items-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear">
+              <p class="py-2 rounded-b bg-white w-10/12 lg:w-11/12"></p>
+              <a href="#" class="flex justify-center"><img src="./media/entekhab1.jpg" alt="" class="rounded-md w-10/12 lg:w-11/12"></a>
+            </div>
+            <div class="flex flex-col items-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear">
+              <p class="py-2 rounded-b bg-white w-10/12 lg:w-11/12"></p>
+              <a href="#" class="flex justify-center"><img src="./media/entekhab2.jpg" alt="" class="rounded-md w-10/12 lg:w-11/12"></a>
+            </div>
+          </div>
+          <div class="flex flex-row justify-around md:justify-center xl:gap-x-10">
+            <div class="flex flex-col items-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear">
+              <p class="py-2 rounded-b bg-white w-10/12 lg:w-11/12"></p>
+              <a href="#" class="flex justify-center"><img src="./media/entekhab3.jpg" alt="" class="rounded-md w-10/12 lg:w-11/12"></a>
+            </div>
+            <div class="flex flex-col items-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear">
+              <p class="py-2 rounded-b bg-white w-10/12 lg:w-11/12"></p>
+              <a href="#" class="flex justify-center"><img src="./media/entekhab4.jpg" alt="" class="rounded-md w-10/12 lg:w-11/12"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end entekhab-->
+    <!--brand-->
+    <section class="mt-5 md:mt-10 lg:mx-2 mb-20">
+      <div class="container flex flex-col gap-3">
+        <div class="flex justify-center"><span class="w-[30%]"></span><p class="text-xs sm:text-base md:text-xl">برندهای برتر</p><span class="w-[30%]"></span></div>
+        <div class="flex flex-col lg:flex-row lg:flex-wrap gap-y-2">
+          <div class="flex flex-row justify-between lg:w-[50%]">
+            <a href="#" class="w-[50%] flex justify-start lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand1.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300 shadow-gray-300 border border-gray-200 rounded-md"></a>
+            <a href="#" class="w-[50%] flex justify-end lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand2.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+          </div>
+          <div class="flex flex-row justify-between lg:w-[50%]">
+            <a href="#" class="w-[50%] flex justify-start lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand3.png" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+            <a href="#" class="w-[50%] flex justify-end lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand4.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+          </div>
+          <div class="flex flex-row justify-between lg:w-[50%]">
+            <a href="#" class="w-[50%] flex justify-start lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand5.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+            <a href="#" class="w-[50%] flex justify-end lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand6.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+          </div>
+          <div class="flex flex-row justify-between lg:w-[50%]">
+            <a href="#" class="w-[50%] flex justify-start lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand7.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+            <a href="#" class="w-[50%] flex justify-end lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand8.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+          </div>
+          <div class="flex flex-row justify-between lg:w-[50%]">
+            <a href="#" class="w-[50%] flex justify-start lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand9.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+            <a href="#" class="w-[50%] flex justify-end lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand10.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+          </div>
+          <div class="flex flex-row justify-between lg:w-[50%]">
+            <a href="#" class="w-[50%] flex justify-start lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand11.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+            <a href="#" class="w-[50%] flex justify-end lg:justify-center translate-y-0 hover:translate-y-[-5px] transition-all duration-200 ease-linear"><img src="./media/brand12.jpg" alt="" class="w-11/12 h-full shadow transition-all duration-200 ease-linear hover:shadow-gray-400 hover:border-gray-300  shadow-gray-300 border border-gray-200 rounded-md"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end brand-->
+    <!--etelaat-->
+    <section class="p-3 bg-[#374151]">
+      <div class="container flex flex-col lg:flex-row gap-3 lg:gap-0">
+        <div class="text-white flex flex-col border-b border-gray-600 lg:border-b-0 lg:border-e lg:border-gray-600 pb-2 lg:pe-2 lg:w-4/12 justify-around gap-4">
+          <div class="flex flex-row justify-between lg:justify-around border-b border-gray-600 lg:border-b-0 pb-2 lg:pe-2">
+            <div class="flex flex-col gap-3">
+              <h5 class="font-bold">اطلاعات خانومی</h5>
+              <ul class="flex flex-col gap-2 text-sm">
+                <li><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">درباره ما</a></li>
+                <li><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">ارتباط با ما</a></li>
+                <li><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">فرصت های شغلی</a></li>
+                <li class="hidden lg:flex"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">حریم خصوصی</a></li>
+               </ul>
+            </div>
+            <div class="flex flex-col gap-3 mt-8 lg:mt-0">
+              <h5 class="font-bold hidden lg:flex">راهنمای کاربران</h5>
+              <ul class="flex flex-col gap-2 text-sm">
+                <li class="lg:hidden"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">حریم خصوصی</a></li>
+                <li class="lg:hidden"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">سوالات متداول</a></li>
+                <li class="hidden lg:flex"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">نحوه خرید و پرداخت</a></li>
+                <li class="hidden lg:flex"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">نحوه خرید از تخفیف‌های شانس</a></li>
+                <li class="hidden lg:flex"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">نحوه ارسال و تحویل کالا</a></li>
+                <li class="hidden lg:flex"><a href="#" class="hover:bg-[#F2859B] transition-all ease-linear rounded-md p-1">شرایط و نحوه مرجوعی کالا</a></li>
+               </ul>
+            </div>
+          </div>
+          <div class="text-sm flex flex-col gap-2">
+            <div class="text-center">هفت روز هفته، از 8 الی 23 پاسخگوی سوالات شما هستیم.</div>
+            <a href="#" class="flex gap-1 items-center justify-center lg:justify-end lg:pe-4 group">
+              <p class="group-hover:text-[#F2859B] transition-all ease-linear">021-91200500</p>
+              <img src="./media/icons8-phone-50.svg" alt="telephone" class="w-[7%] sm:w-[4%] lg:w-[8%]">
+            </a>
+          </div>
+        </div>
+       <!---->
+        <div class="text-white flex flex-col gap-4 lg:gap-8 items-center lg:items-start justify-center lg:w-4/12 lg:border-e lg:border-gray-600 lg:pe-2  border-b border-gray-600 lg:border-b-0 pb-3">
+          <h5 class="font-bold lg:ps-10">دانلود اپلیکیشن موبایل</h5>
+          <div class="flex lg:flex-row">
+            <div class="flex flex-col gap-3 justify-center items-center lg:w-[60%]">
+              <a href="#" class="w-[50%] lg:w-[60%]"><img src="./media/app1.png" alt="" class="border border-white rounded-xl mix-blend-lighten hover:mix-blend-normal"></a>
+              <a href="#" class="w-[50%] lg:w-[60%]"><img src="./media/app2.png" alt="" class="border border-white rounded-xl mix-blend-lighten hover:mix-blend-normal"></a>
+              <a href="#" class="w-[50%] lg:w-[60%]"><img src="./media/app3.png" alt="" class="border border-white rounded-xl mix-blend-lighten hover:mix-blend-normal"></a>
+            </div>
+            <a href="#" class="flex-col text-xs items-center lg:w-[40%] hidden lg:flex">
+              <img src="./media/tandis1402.jpg" alt="" class="rounded-lg w-[60%]">
+              <p class="pt-2">برنده تندیس زرین</p>
+              <p>برند محبوب مصرف‌کنندگان 1402</p>
+            </a>
+          </div>
+        </div>
+       <!---->
+       <div class="flex flex-col gap-4 lg:w-4/12 lg:ps-2">
+        <div class="text-white flex flex-col gap-2 lg:order-2">
+          <div class="flex flex-row gap-2 sm:items-center">
+            <div class="w-[8%] sm:w-[5%]"><img src="./media/email-svgrepo-com.svg" alt=""></div>
+            <label for="email">ایمیلت رو وارد کن تا از تخفیف‌ها جا نمونی :</label>
+          </div>
+          <form action="" class="flex flex-row w-full gap-1">
+            <input type="email" name="email" id="email" placeholder="ایمیل خود را وارد نمایید" class="text-gray-400 border border-1 bg-[#374151] rounded-md w-[90%] p-2">
+            <button class="border border-1 rounded-lg w-[20%] p-1 hover:bg-[#F2859B] transition-all ease-linear">ثبت</button>
+          </form>
+          <div class="flex flex-row justify-around items-center border-b border-gray-600 lg:border-b-0 lg:border-t lg:border-white lg:pt-2 pb-2">
+            <a href="#" class="w-[11%] sm:w-[8%] md:w-[5%] lg:w-[8%]"><img src="./media/instagram-logo-facebook-2-svgrepo-com.svg" alt=""></a>
+            <a href="#" class="w-[9%] sm:w-[6%] md:w-[4%] lg:w-[6%]"><img src="./media/telegram-svgrepo-com.svg" alt=""></a>
+            <a href="#" class="w-[9%] sm:w-[6%] md:w-[4%] lg:w-[6%]"><img src="./media/pinterest-svgrepo-com.svg" alt=""></a>
+            <a href="#" class="w-[9%] sm:w-[6%] md:w-[4%] lg:w-[6%]"><img src="./media/facebook-svgrepo-com.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="flex flex-row justify-around lg:order-1">
+          <a href="#" class="bg-white w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-lg"><img src="./media/enamad-logo.png" alt="" class="w-full h-full"></a>
+          <a href="#" class="bg-white w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-lg"><img src="./media/credit-union.webp" alt="" class="w-full h-full py-3"></a>
+          <a href="#" class="bg-white w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] rounded-lg"><img src="./media/samandehi-logo.png" alt="" class="w-full h-full"></a>
+        </div>
+       </div>
+      </div>
+    </section>
+    <!--end etelaat-->
+    <!--matn-->
+    <footer>
+      <div class="container py-4 px-6 flex flex-col gap-3">
+        <h3 class="text-[#4B5563] text-2xl font-bold pb-2 text-center"> خانومی، فروشگاه اینترنتی لوازم آرایشی بهداشتی اصل</h3>
+        <h5 class="text-[#4B5563] text-base font-bold">فروشگاه اینترنتی خانومی،خرید اینترنتی آسان و مطمئن با بهترین قیمت</h5>
+        <p class="text-[#4B5563] text-sm text-justify"> فروشگاه اینترنتی خانومی 
+          با عرضه بهترین مارک های لوازم آرایشی بهداشتی، عطر و ادکلن اصل
+         ،امکان خرید اینترنتی از مجموعه کاملی از کالاهای مورد نیاز یک بانوی شیک پوش و مشکل
+         پسند ایرانی را فراهم آورده است. فروشگاه اینترنتی خانومی نمایندگی رسمی تمامی برندهای آرایشی و بهداشتی را داراست و شما در
+         فروشگاه اینترنتی خانومی به آسانی به مجموعه کاملی از برندهای آرایشی و
+         بهداشتی دسترسی خواهید داشت. با خرید آنلاین از  فروشگاه اینترنتی خانومی  با ارائه توضیحات
+         کارشناسی شده و دقیق درباره ویژگی های هر کالا در وب سایت، مشاوره و
+         راهنمای خرید، تضمین اصالت کالا و بهترین قیمت در فروشگاه اینترنتی خانومی
+         ، این امکان فراهم آمده است به راحتی و با یک خرید اینترنتی 
+         لذت بخش، مطمئن و آسان کالای مورد نظر خود را تهیه کرده و به سرعت در
+         سراسر ایران دریافت نمایید و با استفاده از بهترین های لوازم آرایشی
+         بهداشتی از زیبایی خود لذت ببرید.
+     </p>
+     <h5 class="text-[#4B5563] text-base font-bold">شعار خانومی: زیبا و سرزنده باش به خاطر خودت</h5>
+     <p class="text-[#4B5563] text-sm text-justify">فروشگاه اینترنتی خانومی   فعالیت خود را در سال 1392 آغاز کرده است و با فروش اینترنتی مجموعه کاملی از بهترین های لوازم آرایشی بهداشتی شامل بهترین مارک های لوازم آرایشی، بهترین مارک های کرم پودر و پنکک، کانسیلر و رژ گونه، انواع  ریمل و خط چشم، بهترین مارک های رژ لب و خط لب، محصولات آرایش بدن و تاتو، هم چنین بهترین مارک های محصولات مراقبت پوست شامل انواع کرم مرطوب کننده و آبرسان، کرم ضد آفتاب، ضد لک و روشن کننده، ضد چروک، لیفت و سفت کننده و انواع ماسک، محصولات مراقبت دور چشم شامل بهترین مارک های کرم ضد پف و تیرگی دور چشم، ضد چروک و مرطوب کننده، محصولات مراقبت مو شامل مجموعه کاملی از بهترین برندهای شامپو، نرم کننده و حالت دهنده، ماسک، اسپری، سرم و تونیک مو، و همچنین مجموعه بی نظیری از عطر و ادکلن زنانه و مردانه اصل امکان  خرید اینترنتی  را فراهم می آورد تا به سهولت، کالاهای مورد نظر خود را از بهترین برندهای لوازم آرایشی بهداشتی شامل لورال، میبلین، گارنیر، بورژوا، اسنس، آرت دکو، بیو، بیودرما، نوروا، ویشی، لیراک و ده ها برند مطرح دنیا تهیه نموده و با اطمینان از اصالت کالا و بهترین قیمت، از  خرید اینترنتی خود لذت ببرید.</p>
+     <p class="text-[#4B5563] text-sm text-justify">لازم به تاکید است کلیه واردکنندگان و تولیدکنندگان کالاهای عرضه شده در فروشگاه خانومی موظف به ارائه پروانه بهداشتی ورود یا ساخت از وزارت بهداشت و نصب آن روی کالاهای ارائه شده می باشند و درصورتی که کالا بدون پروانه بهداشت برای شما ارسال گردید فورا واحد پشتیبانی مشتریان خانومی به شماره 02191200500 را در جریان قراردهید تا اقدامات لازم برای تعویض محصول را انجام دهند.</p>
+      </div>
+    </footer>
+    <!--end matn-->
+    <!--hughogh-->
+    <footer>
+      <div class="bg-[#F096A5] text-white text-center text-[10px] md:text-xs py-2">کلیه حقوق این سایت متعلق به فروشگاه آنلاین خانومی می باشد.</div>
+    </footer>
+    <!--end hughogh-->
+    <!--poshtibani-->
+      <a href="#" class="poshtibani fixed z-[999] right-[0.5%] bottom-[9%] flex justify-center items-center w-[8%] sm:w-[5%] lg:w-[4%] bg-white rounded-full shadow-md">
+        <img src="./media/chat-bubble-circle-20788.svg" alt="poshtibani">
+      </a>
+      <!--end poshtibani-->
+    <!--script-->
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next1",
+            prevEl: ".swiper-button-prev1",
+          },
+        });
+      </script>
+       <script>
+        var swiper = new Swiper(".mySwiper2", {
+          slidesPerView: 6,
+          spaceBetween: 0,
+          freeMode: true,
+          loop:true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next2",
+            prevEl: ".swiper-button-prev2",
+          },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper3", {
+          slidesPerView: 6,
+          spaceBetween: 10,
+          freeMode: true,
+          loop:true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next3",
+            prevEl: ".swiper-button-prev3",
+          },
+        });
+      </script>
+  </body>
+</html>
